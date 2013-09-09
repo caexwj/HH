@@ -1,0 +1,637 @@
+﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+<Root>
+   <Summary TableName="SCL90" SubmitName="录入"/>
+   <Items>
+		<Item Name="1. 头痛" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+		</Item>
+		<Item Name="2. 神经过敏，心中不踏实" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>	
+		</Item>
+		<Item Name="3. 头脑中有不必要的想法或字句盘旋" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="4. 头昏或昏倒" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="5. 对异性的兴趣减退" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="6. 对旁人责备求全" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="7. 感到别人控制您的思想" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="8. 责怪别人制造麻烦" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="9. 忘性大" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="10. 担心自己的衣服不整齐以及仪态不端正" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="11. 容易烦恼和激动" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="12. 胸痛" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="13. 害怕空旷的场所或街道" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="14. 感到自己的精力下降，活动减慢" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="15. 想结束自己的生命" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="16. 听到别人听不到的声音" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="17. 发抖" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="18. 感到大多数人都不可信任" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="19. 胃口不好" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="20. 容易哭泣" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="21. 同异性相处时感到害羞不自在" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="22. 感到受骗，中了圈套或有人想抓住您" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="23. 无缘无故地突然感到害怕" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="24. 自己不能控制地大发脾气" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="25. 怕单独出门" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="26. 经常责怪自己" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="27. 腰痛" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="28. 感到难以完成任务" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="29. 感到孤独" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="30.	感到苦闷" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="31.	过分担忧" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="32.	对事物不感兴趣" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="33.	感到害怕" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="34.	您的感情容易受到伤害" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="35.	旁人能知道您私下的想法" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="36.	感到别人不理解您、不同情您" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="37.	感到人们对您不友好、不喜欢您" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="38.	做事必须做得很慢比保证做得正确" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="39.	心跳得很厉害" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="40.	恶心或胃部不舒服" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="41.	感到比不上他人" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="42.	肌肉酸痛" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="43.	感到有人在监视您、谈论您" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="44.	难以入睡" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="45.	做事必须反复检查" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="46.	难以做出决定" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="47.	怕乘电车、公共汽车、地铁或火车" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="48.	呼吸有困难" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="49.	一阵阵发冷或发热" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="50.	因为感到害怕而避开某些东西、场合或活动" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="51.	脑子变空了" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="52.	身体发麻或刺痛" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="53.	喉咙有梗塞感" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="54.	感到前途没有希望" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="55.	不能集中注意" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="56.	感到身体的某一部分软弱无力" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="57.	感到紧张或容易紧张" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="58.	感到手或脚发重" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="59.	想到死亡的事" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="60.	吃得太多" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="61.	当别人看着您或谈论您时感到不自在" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="62.	有一些不属于您自己的想法" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="63.	有想打人或伤害他人的冲动" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="64.	醒得太早" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="65.	必须反复洗手、清点数目或触摸某些东西" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="66.	睡得不稳、不深" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="67.	有想摔坏或破坏东西的冲动" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="68.	有一些别人没有的想法或念头" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="69.	感到对别人神经过敏" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="70.	在商店或电影院等人多的地方感到不自在" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="71.	感到任何事情都很困难" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="72.	一阵阵恐惧或惊恐" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="73.	感到公共场合吃东西很不舒服" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="74.	经常与人争论" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="75.	单独一人时神经很紧张" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="76.	别人对您的成绩没有做出恰当的评价" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="77.	即使和别人在一起也感到孤单" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="78.	感到坐立不安、心神不定" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="79.	感到自己没有什么价值" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="80.	感到熟悉的东西变成陌生或不像是真的" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="81.	大叫或摔东西" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="82.	害怕会在公共场合晕倒" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="83.	感到别人想占您的便宜" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="84.	为一些关于性的想法而很苦恼" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="85.	您认为应该因为自己的过错而受到惩罚" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="86.	感到要很快把事情做完" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="87.	感到自己的身体有严重问题" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="88.	从未感到和其他人很亲近" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="89.	感到自己有罪" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+                </Item>		
+		<Item Name="90.	感到自己的脑子有毛病" Type="RadioBox">
+			<Row Value = "A、没有：自觉无该症状" Check="true"/>
+			<Row Value = "B、很轻：自觉有该症状，但不频繁" Check="false"/>
+			<Row Value = "C、中等：自觉症状明显，但不严重" Check="false"/>
+			<Row Value = "D、偏重：自觉症状显著，频繁出现" Check="false"/>
+			<Row Value = "E、严重：自觉症状严重且持续存在" Check="false"/>
+		</Item>
+                
+   </Items>
+</Root>

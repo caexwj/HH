@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Root>
+    <Items>
+		<Item Name="入睡困难(30分钟内不能入睡)" Type="RadioBox">
+			<Row Value = "无" Check="true"/>
+			<Row Value = "不足l次/周" Check="false"/>
+			<Row Value = "1—2次/周" Check="false"/>
+			<Row Value = "3次或以上/周" Check="false"/>
+		</Item>
+		<Item Name="夜间易醒或早醒" Type="RadioBox">
+			<Row Value = "无" Check="true"/>
+			<Row Value = "不足l次/周" Check="false"/>
+			<Row Value = "1—2次/周" Check="false"/>
+			<Row Value = "3次或以上/周" Check="false"/>
+		</Item>
+		<Item Name="夜间去厕所" Type="RadioBox">
+			<Row Value = "无" Check="true"/>
+			<Row Value = "不足l次/周" Check="false"/>
+			<Row Value = "1—2次/周" Check="false"/>
+			<Row Value = "3次或以上/周" Check="false"/>
+		</Item>
+		<Item Name="呼吸不畅" Type="RadioBox">
+			<Row Value = "无" Check="true"/>
+			<Row Value = "不足l次/周" Check="false"/>
+			<Row Value = "1—2次/周" Check="false"/>
+			<Row Value = "3次或以上/周" Check="false"/>
+		</Item>
+		<Item Name="大声咳嗽或鼾声高" Type="RadioBox">
+			<Row Value = "无" Check="true"/>
+			<Row Value = "不足l次/周" Check="false"/>
+			<Row Value = "1—2次/周" Check="false"/>
+			<Row Value = "3次或以上/周" Check="false"/>
+		</Item>
+		<Item Name="感觉冷" Type="RadioBox">
+			<Row Value = "无" Check="true"/>
+			<Row Value = "不足l次/周" Check="false"/>
+			<Row Value = "1—2次/周" Check="false"/>
+			<Row Value = "3次或以上/周" Check="false"/>
+		</Item>
+		<Item Name="感觉热" Type="RadioBox">
+			<Row Value = "无" Check="true"/>
+			<Row Value = "不足l次/周" Check="false"/>
+			<Row Value = "1—2次/周" Check="false"/>
+			<Row Value = "3次或以上/周" Check="false"/>
+		</Item>
+		<Item Name="做噩梦" Type="RadioBox">
+			<Row Value = "无" Check="true"/>
+			<Row Value = "不足l次/周" Check="false"/>
+			<Row Value = "1—2次/周" Check="false"/>
+			<Row Value = "3次或以上/周" Check="false"/>
+		</Item>
+		<Item Name="疼痛不适" Type="RadioBox">
+			<Row Value = "无" Check="true"/>
+			<Row Value = "不足l次/周" Check="false"/>
+			<Row Value = "1—2次/周" Check="false"/>
+			<Row Value = "3次或以上/周" Check="false"/>
+		</Item>
+		<Item Name="其他影响睡眠的事情" Type="RadioBox" AdditionalInput="true" AdditionalLable="请写明">
+			<Row Value = "无" Check="true"/>
+			<Row Value = "不足l次/周" Check="false"/>
+			<Row Value = "1—2次/周" Check="false"/>
+			<Row Value = "3次或以上/周" Check="false"/>
+		</Item>
+		<Item Name="近1个月您的睡眠质量" Type="RadioBox" >
+			<Row Value = "很好" Check="true"/>
+			<Row Value = "较好" Check="false"/>
+			<Row Value = "较差" Check="false"/>
+			<Row Value = "很差" Check="false"/>
+		</Item>
+		<Item Name="近1个月您是否经常使用催眠药物才能入睡" Type="RadioBox" >
+			<Row Value = "无" Check="true"/>
+			<Row Value = "不足l次/周" Check="false"/>
+			<Row Value = "1—2次/周" Check="false"/>
+			<Row Value = "3次或以上/周" Check="false"/>
+		</Item>
+		<Item Name="近1个月您是否常感到劳累" Type="RadioBox" >
+			<Row Value = "无" Check="true"/>
+			<Row Value = "不足l次/周" Check="false"/>
+			<Row Value = "1—2次/周" Check="false"/>
+			<Row Value = "3次或以上/周" Check="false"/>
+		</Item>
+		<Item Name="近1个月您是否常感到困倦" Type="RadioBox" >
+			<Row Value = "没有" Check="true"/>
+			<Row Value = "偶尔有" Check="false"/>
+			<Row Value = "有时有" Check="false"/>
+			<Row Value = "经常有" Check="false"/>
+		</Item>
+    </Items>
+</Root>

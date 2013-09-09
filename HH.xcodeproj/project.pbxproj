@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		941A35D617DC14FC007D9747 /* HHTestItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941A35D417DC14FC007D9747 /* HHTestItemsViewController.m */; };
+		941A35D717DC14FC007D9747 /* HHTestItemsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941A35D517DC14FC007D9747 /* HHTestItemsViewController.xib */; };
+		941A35DC17DC18B1007D9747 /* HHSCL90Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 941A35DA17DC18B1007D9747 /* HHSCL90Controller.m */; };
+		941A35DD17DC18B1007D9747 /* HHSCL90Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941A35DB17DC18B1007D9747 /* HHSCL90Controller.xib */; };
+		941A35E017DC1CDC007D9747 /* VCRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 941A35DE17DC1CDC007D9747 /* VCRadioButton.m */; };
+		941A35E217DC1D53007D9747 /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 941A35E117DC1D53007D9747 /* resource.bundle */; };
+		941A35E617DC3DED007D9747 /* HHPittsburghController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941A35E417DC3DED007D9747 /* HHPittsburghController.m */; };
+		941A35E717DC3DED007D9747 /* HHPittsburghController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941A35E517DC3DED007D9747 /* HHPittsburghController.xib */; };
+		941A35EA17DC48DB007D9747 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 941A35E917DC48DB007D9747 /* GDataXMLNode.m */; };
+		941A35EE17DC9375007D9747 /* HHEyeMemoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941A35EC17DC9375007D9747 /* HHEyeMemoryViewController.m */; };
+		941A35EF17DC9375007D9747 /* HHEyeMemoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941A35ED17DC9375007D9747 /* HHEyeMemoryViewController.xib */; };
+		941A35F317DC9A63007D9747 /* HHResponseSpeedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941A35F017DC9A63007D9747 /* HHResponseSpeedController.m */; };
+		941A35F417DC9A63007D9747 /* HHResponseSpeedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941A35F217DC9A63007D9747 /* HHResponseSpeedController.xib */; };
+		941C17D617DAC9C900D12615 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941C17D517DAC9C900D12615 /* UIKit.framework */; };
+		941C17D817DAC9C900D12615 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941C17D717DAC9C900D12615 /* Foundation.framework */; };
+		941C17DA17DAC9C900D12615 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941C17D917DAC9C900D12615 /* CoreGraphics.framework */; };
+		941C17E017DAC9C900D12615 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 941C17DE17DAC9C900D12615 /* InfoPlist.strings */; };
+		941C17E217DAC9C900D12615 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 941C17E117DAC9C900D12615 /* main.m */; };
+		941C17E617DAC9C900D12615 /* HHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 941C17E517DAC9C900D12615 /* HHAppDelegate.m */; };
+		941C17EF17DAC9C900D12615 /* HHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941C17EE17DAC9C900D12615 /* HHViewController.m */; };
+		941C17F517DAC9C900D12615 /* HHViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941C17F317DAC9C900D12615 /* HHViewController_iPad.xib */; };
+		941C17FC17DACA7000D12615 /* Logo57.png in Resources */ = {isa = PBXBuildFile; fileRef = 941C17FB17DACA7000D12615 /* Logo57.png */; };
+		941C17FE17DACA7600D12615 /* Logo114.png in Resources */ = {isa = PBXBuildFile; fileRef = 941C17FD17DACA7600D12615 /* Logo114.png */; };
+		941C180017DACA7D00D12615 /* Logo72.png in Resources */ = {isa = PBXBuildFile; fileRef = 941C17FF17DACA7D00D12615 /* Logo72.png */; };
+		941C180217DACA8200D12615 /* Logo144.png in Resources */ = {isa = PBXBuildFile; fileRef = 941C180117DACA8200D12615 /* Logo144.png */; };
+		941C180917DACC3800D12615 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 941C180817DACC3800D12615 /* Default-568h@2x.png */; };
+		941C180B17DACC7200D12615 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 941C180A17DACC7200D12615 /* Default-Portrait~ipad.png */; };
+		941C180D17DACC7C00D12615 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 941C180C17DACC7C00D12615 /* Default-Portrait@2x~ipad.png */; };
+		941C180F17DACC8300D12615 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 941C180E17DACC8300D12615 /* Default-Landscape~ipad.png */; };
+		941C181117DACC8A00D12615 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 941C181017DACC8A00D12615 /* Default-Landscape@2x~ipad.png */; };
+		941C181517DACD2000D12615 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 941C181417DACD2000D12615 /* JSONKit.m */; };
+		941C181917DACF2400D12615 /* HttpUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 941C181717DACF2400D12615 /* HttpUtils.m */; };
+		941C181C17DAD97900D12615 /* HHHttpInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 941C181B17DAD97900D12615 /* HHHttpInterface.m */; };
+		941C185C17DAEAEA00D12615 /* HHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941C185A17DAEAEA00D12615 /* HHMainViewController.m */; };
+		941C185D17DAEAEA00D12615 /* HHMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941C185B17DAEAEA00D12615 /* HHMainViewController.xib */; };
+		941C186417DAF31100D12615 /* HHClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 941C186317DAF31100D12615 /* HHClient.m */; };
+		941C186717DAF79200D12615 /* HHUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 941C186617DAF79200D12615 /* HHUtils.m */; };
+		941C186B17DB4F9600D12615 /* HHSearchClientsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941C186917DB4F9500D12615 /* HHSearchClientsController.m */; };
+		941C186C17DB4F9600D12615 /* HHSearchClientsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941C186A17DB4F9600D12615 /* HHSearchClientsController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		941A35D317DC14FC007D9747 /* HHTestItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHTestItemsViewController.h; path = UI/HHTestItemsViewController.h; sourceTree = "<group>"; };
+		941A35D417DC14FC007D9747 /* HHTestItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHTestItemsViewController.m; path = UI/HHTestItemsViewController.m; sourceTree = "<group>"; };
+		941A35D517DC14FC007D9747 /* HHTestItemsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HHTestItemsViewController.xib; path = UI/HHTestItemsViewController.xib; sourceTree = "<group>"; };
+		941A35D917DC18B1007D9747 /* HHSCL90Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHSCL90Controller.h; path = Test/HHSCL90Controller.h; sourceTree = "<group>"; };
+		941A35DA17DC18B1007D9747 /* HHSCL90Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHSCL90Controller.m; path = Test/HHSCL90Controller.m; sourceTree = "<group>"; };
+		941A35DB17DC18B1007D9747 /* HHSCL90Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HHSCL90Controller.xib; path = Test/HHSCL90Controller.xib; sourceTree = "<group>"; };
+		941A35DE17DC1CDC007D9747 /* VCRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCRadioButton.m; path = ExternalTools/VCRadioButton.m; sourceTree = "<group>"; };
+		941A35DF17DC1CDC007D9747 /* VCRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCRadioButton.h; path = ExternalTools/VCRadioButton.h; sourceTree = "<group>"; };
+		941A35E117DC1D53007D9747 /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = resource.bundle; path = HH/resource.bundle; sourceTree = "<group>"; };
+		941A35E317DC3DED007D9747 /* HHPittsburghController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHPittsburghController.h; path = Test/HHPittsburghController.h; sourceTree = "<group>"; };
+		941A35E417DC3DED007D9747 /* HHPittsburghController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHPittsburghController.m; path = Test/HHPittsburghController.m; sourceTree = "<group>"; };
+		941A35E517DC3DED007D9747 /* HHPittsburghController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HHPittsburghController.xib; path = Test/HHPittsburghController.xib; sourceTree = "<group>"; };
+		941A35E817DC48DB007D9747 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = ExternalTools/GDataXMLNode.h; sourceTree = "<group>"; };
+		941A35E917DC48DB007D9747 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = ExternalTools/GDataXMLNode.m; sourceTree = "<group>"; };
+		941A35EB17DC9374007D9747 /* HHEyeMemoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHEyeMemoryViewController.h; path = Test/HHEyeMemoryViewController.h; sourceTree = "<group>"; };
+		941A35EC17DC9375007D9747 /* HHEyeMemoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHEyeMemoryViewController.m; path = Test/HHEyeMemoryViewController.m; sourceTree = "<group>"; };
+		941A35ED17DC9375007D9747 /* HHEyeMemoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HHEyeMemoryViewController.xib; path = Test/HHEyeMemoryViewController.xib; sourceTree = "<group>"; };
+		941A35F017DC9A63007D9747 /* HHResponseSpeedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHResponseSpeedController.m; path = Test/HHResponseSpeedController.m; sourceTree = "<group>"; };
+		941A35F117DC9A63007D9747 /* HHResponseSpeedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHResponseSpeedController.h; path = Test/HHResponseSpeedController.h; sourceTree = "<group>"; };
+		941A35F217DC9A63007D9747 /* HHResponseSpeedController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HHResponseSpeedController.xib; path = Test/HHResponseSpeedController.xib; sourceTree = "<group>"; };
+		941C17D217DAC9C900D12615 /* HH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		941C17D517DAC9C900D12615 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		941C17D717DAC9C900D12615 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		941C17D917DAC9C900D12615 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		941C17DD17DAC9C900D12615 /* HH-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HH-Info.plist"; sourceTree = "<group>"; };
+		941C17DF17DAC9C900D12615 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		941C17E117DAC9C900D12615 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		941C17E317DAC9C900D12615 /* HH-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HH-Prefix.pch"; sourceTree = "<group>"; };
+		941C17E417DAC9C900D12615 /* HHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHAppDelegate.h; sourceTree = "<group>"; };
+		941C17E517DAC9C900D12615 /* HHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHAppDelegate.m; sourceTree = "<group>"; };
+		941C17E717DAC9C900D12615 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		941C17E917DAC9C900D12615 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		941C17EB17DAC9C900D12615 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		941C17ED17DAC9C900D12615 /* HHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHViewController.h; sourceTree = "<group>"; };
+		941C17EE17DAC9C900D12615 /* HHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHViewController.m; sourceTree = "<group>"; };
+		941C17F417DAC9C900D12615 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HHViewController_iPad.xib; sourceTree = "<group>"; };
+		941C17FB17DACA7000D12615 /* Logo57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo57.png; sourceTree = "<group>"; };
+		941C17FD17DACA7600D12615 /* Logo114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo114.png; sourceTree = "<group>"; };
+		941C17FF17DACA7D00D12615 /* Logo72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo72.png; sourceTree = "<group>"; };
+		941C180117DACA8200D12615 /* Logo144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo144.png; sourceTree = "<group>"; };
+		941C180417DACC0600D12615 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		941C180617DACC2200D12615 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		941C180817DACC3800D12615 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		941C180A17DACC7200D12615 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		941C180C17DACC7C00D12615 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		941C180E17DACC8300D12615 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		941C181017DACC8A00D12615 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		941C181317DACD2000D12615 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = ExternalTools/JSONKit.h; sourceTree = "<group>"; };
+		941C181417DACD2000D12615 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = ExternalTools/JSONKit.m; sourceTree = "<group>"; };
+		941C181717DACF2400D12615 /* HttpUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpUtils.m; path = Utils/HttpUtils.m; sourceTree = "<group>"; };
+		941C181817DACF2400D12615 /* HttpUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpUtils.h; path = Utils/HttpUtils.h; sourceTree = "<group>"; };
+		941C181A17DAD97900D12615 /* HHHttpInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHHttpInterface.h; path = Utils/HHHttpInterface.h; sourceTree = "<group>"; };
+		941C181B17DAD97900D12615 /* HHHttpInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHHttpInterface.m; path = Utils/HHHttpInterface.m; sourceTree = "<group>"; };
+		941C185917DAEAEA00D12615 /* HHMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHMainViewController.h; path = UI/HHMainViewController.h; sourceTree = "<group>"; };
+		941C185A17DAEAEA00D12615 /* HHMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHMainViewController.m; path = UI/HHMainViewController.m; sourceTree = "<group>"; };
+		941C185B17DAEAEA00D12615 /* HHMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HHMainViewController.xib; path = UI/HHMainViewController.xib; sourceTree = "<group>"; };
+		941C186217DAF31100D12615 /* HHClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHClient.h; path = DB/HHClient.h; sourceTree = "<group>"; };
+		941C186317DAF31100D12615 /* HHClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHClient.m; path = DB/HHClient.m; sourceTree = "<group>"; };
+		941C186517DAF79200D12615 /* HHUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHUtils.h; path = Utils/HHUtils.h; sourceTree = "<group>"; };
+		941C186617DAF79200D12615 /* HHUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHUtils.m; path = Utils/HHUtils.m; sourceTree = "<group>"; };
+		941C186817DB4F9300D12615 /* HHSearchClientsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHSearchClientsController.h; path = UI/HHSearchClientsController.h; sourceTree = "<group>"; };
+		941C186917DB4F9500D12615 /* HHSearchClientsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHSearchClientsController.m; path = UI/HHSearchClientsController.m; sourceTree = "<group>"; };
+		941C186A17DB4F9600D12615 /* HHSearchClientsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HHSearchClientsController.xib; path = UI/HHSearchClientsController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		941C17CF17DAC9C900D12615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941C17D617DAC9C900D12615 /* UIKit.framework in Frameworks */,
+				941C17D817DAC9C900D12615 /* Foundation.framework in Frameworks */,
+				941C17DA17DAC9C900D12615 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		941A35D817DC1896007D9747 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				941A35F017DC9A63007D9747 /* HHResponseSpeedController.m */,
+				941A35F117DC9A63007D9747 /* HHResponseSpeedController.h */,
+				941A35F217DC9A63007D9747 /* HHResponseSpeedController.xib */,
+				941A35D917DC18B1007D9747 /* HHSCL90Controller.h */,
+				941A35DA17DC18B1007D9747 /* HHSCL90Controller.m */,
+				941A35DB17DC18B1007D9747 /* HHSCL90Controller.xib */,
+				941A35E317DC3DED007D9747 /* HHPittsburghController.h */,
+				941A35E417DC3DED007D9747 /* HHPittsburghController.m */,
+				941A35E517DC3DED007D9747 /* HHPittsburghController.xib */,
+				941A35EB17DC9374007D9747 /* HHEyeMemoryViewController.h */,
+				941A35EC17DC9375007D9747 /* HHEyeMemoryViewController.m */,
+				941A35ED17DC9375007D9747 /* HHEyeMemoryViewController.xib */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		941C17C917DAC9C900D12615 = {
+			isa = PBXGroup;
+			children = (
+				941A35E117DC1D53007D9747 /* resource.bundle */,
+				941C181017DACC8A00D12615 /* Default-Landscape@2x~ipad.png */,
+				941C180E17DACC8300D12615 /* Default-Landscape~ipad.png */,
+				941C180C17DACC7C00D12615 /* Default-Portrait@2x~ipad.png */,
+				941C180A17DACC7200D12615 /* Default-Portrait~ipad.png */,
+				941C180817DACC3800D12615 /* Default-568h@2x.png */,
+				941C180617DACC2200D12615 /* Default@2x.png */,
+				941C180417DACC0600D12615 /* Default.png */,
+				941C180117DACA8200D12615 /* Logo144.png */,
+				941C17FF17DACA7D00D12615 /* Logo72.png */,
+				941C17FD17DACA7600D12615 /* Logo114.png */,
+				941C17FB17DACA7000D12615 /* Logo57.png */,
+				941C17DB17DAC9C900D12615 /* HH */,
+				941C17D417DAC9C900D12615 /* Frameworks */,
+				941C17D317DAC9C900D12615 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		941C17D317DAC9C900D12615 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				941C17D217DAC9C900D12615 /* HH.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		941C17D417DAC9C900D12615 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				941C17D517DAC9C900D12615 /* UIKit.framework */,
+				941C17D717DAC9C900D12615 /* Foundation.framework */,
+				941C17D917DAC9C900D12615 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		941C17DB17DAC9C900D12615 /* HH */ = {
+			isa = PBXGroup;
+			children = (
+				941A35D817DC1896007D9747 /* Test */,
+				941C186117DAF28000D12615 /* DB */,
+				941C185817DAEAA500D12615 /* UI */,
+				941C181617DACF1B00D12615 /* Utils */,
+				941C181217DACCE900D12615 /* ExternalTools */,
+				941C17E417DAC9C900D12615 /* HHAppDelegate.h */,
+				941C17E517DAC9C900D12615 /* HHAppDelegate.m */,
+				941C17ED17DAC9C900D12615 /* HHViewController.h */,
+				941C17EE17DAC9C900D12615 /* HHViewController.m */,
+				941C17F317DAC9C900D12615 /* HHViewController_iPad.xib */,
+				941C17DC17DAC9C900D12615 /* Supporting Files */,
+			);
+			path = HH;
+			sourceTree = "<group>";
+		};
+		941C17DC17DAC9C900D12615 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				941C17DD17DAC9C900D12615 /* HH-Info.plist */,
+				941C17DE17DAC9C900D12615 /* InfoPlist.strings */,
+				941C17E117DAC9C900D12615 /* main.m */,
+				941C17E317DAC9C900D12615 /* HH-Prefix.pch */,
+				941C17E717DAC9C900D12615 /* Default.png */,
+				941C17E917DAC9C900D12615 /* Default@2x.png */,
+				941C17EB17DAC9C900D12615 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		941C181217DACCE900D12615 /* ExternalTools */ = {
+			isa = PBXGroup;
+			children = (
+				941A35DE17DC1CDC007D9747 /* VCRadioButton.m */,
+				941A35DF17DC1CDC007D9747 /* VCRadioButton.h */,
+				941C181317DACD2000D12615 /* JSONKit.h */,
+				941C181417DACD2000D12615 /* JSONKit.m */,
+				941A35E817DC48DB007D9747 /* GDataXMLNode.h */,
+				941A35E917DC48DB007D9747 /* GDataXMLNode.m */,
+			);
+			name = ExternalTools;
+			sourceTree = "<group>";
+		};
+		941C181617DACF1B00D12615 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				941C181717DACF2400D12615 /* HttpUtils.m */,
+				941C181817DACF2400D12615 /* HttpUtils.h */,
+				941C181A17DAD97900D12615 /* HHHttpInterface.h */,
+				941C181B17DAD97900D12615 /* HHHttpInterface.m */,
+				941C186517DAF79200D12615 /* HHUtils.h */,
+				941C186617DAF79200D12615 /* HHUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		941C185817DAEAA500D12615 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				941C185917DAEAEA00D12615 /* HHMainViewController.h */,
+				941C185A17DAEAEA00D12615 /* HHMainViewController.m */,
+				941C185B17DAEAEA00D12615 /* HHMainViewController.xib */,
+				941C186817DB4F9300D12615 /* HHSearchClientsController.h */,
+				941C186917DB4F9500D12615 /* HHSearchClientsController.m */,
+				941C186A17DB4F9600D12615 /* HHSearchClientsController.xib */,
+				941A35D317DC14FC007D9747 /* HHTestItemsViewController.h */,
+				941A35D417DC14FC007D9747 /* HHTestItemsViewController.m */,
+				941A35D517DC14FC007D9747 /* HHTestItemsViewController.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		941C186117DAF28000D12615 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				941C186217DAF31100D12615 /* HHClient.h */,
+				941C186317DAF31100D12615 /* HHClient.m */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		941C17D117DAC9C900D12615 /* HH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941C17F817DAC9C900D12615 /* Build configuration list for PBXNativeTarget "HH" */;
+			buildPhases = (
+				941C17CE17DAC9C900D12615 /* Sources */,
+				941C17CF17DAC9C900D12615 /* Frameworks */,
+				941C17D017DAC9C900D12615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HH;
+			productName = HH;
+			productReference = 941C17D217DAC9C900D12615 /* HH.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		941C17CA17DAC9C900D12615 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "鸿鹤抗衰老";
+			};
+			buildConfigurationList = 941C17CD17DAC9C900D12615 /* Build configuration list for PBXProject "HH" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 941C17C917DAC9C900D12615;
+			productRefGroup = 941C17D317DAC9C900D12615 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				941C17D117DAC9C900D12615 /* HH */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		941C17D017DAC9C900D12615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941A35E217DC1D53007D9747 /* resource.bundle in Resources */,
+				941C17E017DAC9C900D12615 /* InfoPlist.strings in Resources */,
+				941C17F517DAC9C900D12615 /* HHViewController_iPad.xib in Resources */,
+				941C17FC17DACA7000D12615 /* Logo57.png in Resources */,
+				941C17FE17DACA7600D12615 /* Logo114.png in Resources */,
+				941C180017DACA7D00D12615 /* Logo72.png in Resources */,
+				941C180217DACA8200D12615 /* Logo144.png in Resources */,
+				941C180917DACC3800D12615 /* Default-568h@2x.png in Resources */,
+				941C180B17DACC7200D12615 /* Default-Portrait~ipad.png in Resources */,
+				941C180D17DACC7C00D12615 /* Default-Portrait@2x~ipad.png in Resources */,
+				941C180F17DACC8300D12615 /* Default-Landscape~ipad.png in Resources */,
+				941C181117DACC8A00D12615 /* Default-Landscape@2x~ipad.png in Resources */,
+				941C185D17DAEAEA00D12615 /* HHMainViewController.xib in Resources */,
+				941C186C17DB4F9600D12615 /* HHSearchClientsController.xib in Resources */,
+				941A35D717DC14FC007D9747 /* HHTestItemsViewController.xib in Resources */,
+				941A35DD17DC18B1007D9747 /* HHSCL90Controller.xib in Resources */,
+				941A35E717DC3DED007D9747 /* HHPittsburghController.xib in Resources */,
+				941A35EF17DC9375007D9747 /* HHEyeMemoryViewController.xib in Resources */,
+				941A35F417DC9A63007D9747 /* HHResponseSpeedController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		941C17CE17DAC9C900D12615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941C17E217DAC9C900D12615 /* main.m in Sources */,
+				941C17E617DAC9C900D12615 /* HHAppDelegate.m in Sources */,
+				941C17EF17DAC9C900D12615 /* HHViewController.m in Sources */,
+				941C181517DACD2000D12615 /* JSONKit.m in Sources */,
+				941C181917DACF2400D12615 /* HttpUtils.m in Sources */,
+				941C181C17DAD97900D12615 /* HHHttpInterface.m in Sources */,
+				941C185C17DAEAEA00D12615 /* HHMainViewController.m in Sources */,
+				941C186417DAF31100D12615 /* HHClient.m in Sources */,
+				941C186717DAF79200D12615 /* HHUtils.m in Sources */,
+				941C186B17DB4F9600D12615 /* HHSearchClientsController.m in Sources */,
+				941A35D617DC14FC007D9747 /* HHTestItemsViewController.m in Sources */,
+				941A35DC17DC18B1007D9747 /* HHSCL90Controller.m in Sources */,
+				941A35E017DC1CDC007D9747 /* VCRadioButton.m in Sources */,
+				941A35E617DC3DED007D9747 /* HHPittsburghController.m in Sources */,
+				941A35EA17DC48DB007D9747 /* GDataXMLNode.m in Sources */,
+				941A35EE17DC9375007D9747 /* HHEyeMemoryViewController.m in Sources */,
+				941A35F317DC9A63007D9747 /* HHResponseSpeedController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		941C17DE17DAC9C900D12615 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				941C17DF17DAC9C900D12615 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		941C17F317DAC9C900D12615 /* HHViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				941C17F417DAC9C900D12615 /* en */,
+			);
+			name = HHViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		941C17F617DAC9C900D12615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		941C17F717DAC9C900D12615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		941C17F917DAC9C900D12615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HH/HH-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "HH/HH-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		941C17FA17DAC9C900D12615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HH/HH-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "HH/HH-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		941C17CD17DAC9C900D12615 /* Build configuration list for PBXProject "HH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941C17F617DAC9C900D12615 /* Debug */,
+				941C17F717DAC9C900D12615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		941C17F817DAC9C900D12615 /* Build configuration list for PBXNativeTarget "HH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941C17F917DAC9C900D12615 /* Debug */,
+				941C17FA17DAC9C900D12615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 941C17CA17DAC9C900D12615 /* Project object */;
+}
